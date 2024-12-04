@@ -11,4 +11,15 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Automappers\" />
+    <Folder Include="DTOs\BrandDTOs\" />
+    <Folder Include="DTOs\BeerDTOs\" />
+    <Folder Include="DTOs\ClientDTOs\" />
+    <Folder Include="DTOs\ProvidersDTOs\" />
+    <Folder Include="Validators\" />
+    <Folder Include="Repository\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>
