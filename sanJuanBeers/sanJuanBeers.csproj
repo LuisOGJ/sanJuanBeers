@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0">
       <PrivateAssets>all</PrivateAssets>
@@ -21,7 +22,13 @@
     <Folder Include="DTOs\IngressDTOs\" />
     <Folder Include="DTOs\IngressDetailDTOs\" />
     <Folder Include="DTOs\SaleDetailDTOs\" />
-    <Folder Include="Validators\" />
+    <Folder Include="Validators\BrandValidators\" />
+    <Folder Include="Validators\ClientValidators\" />
+    <Folder Include="Validators\IngressValidators\" />
+    <Folder Include="Validators\SaleValidators\" />
+    <Folder Include="Validators\RoleValidators\" />
+    <Folder Include="Validators\UserValidators\" />
+    <Folder Include="Validators\ProviderValidators\" />
   </ItemGroup>
 
 </Project>
