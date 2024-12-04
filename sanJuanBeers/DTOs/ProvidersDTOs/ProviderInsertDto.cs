@@ -1,12 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-
-namespace sanJuanBeers.Models
+﻿namespace sanJuanBeers.DTOs.ProvidersDTOs
 {
-    public class Provider
+    public class ProviderInsertDto
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ProviderID { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }

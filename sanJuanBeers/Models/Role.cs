@@ -3,15 +3,12 @@ using System.ComponentModel.DataAnnotations;
 
 namespace sanJuanBeers.Models
 {
-    public class Client
+    public class Role
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int ClientID { get; set; }
+        public int RoleID { get; set; }
         public string Name { get; set; }
-        public string PhoneNumber { get; set; }
-        public string Email { get; set; }
-        public string Address { get; set; }
-
+        public Boolean IsActive { get; set; }
     }
 }
